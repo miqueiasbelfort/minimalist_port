@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import styles from "./ChoicePage.module.css"
 
-const ChoicePage = ({handleClickPro, handleClickSki}) => {  
+const ChoicePage = ({handleClickPro, handleClickSki, handleClickAbo}) => {  
 
   return (
     <div className={styles.container}>
@@ -17,6 +17,12 @@ const ChoicePage = ({handleClickPro, handleClickSki}) => {
             className={`btn btn-choice btnChoice`}
         >
             Skills
+        </button>
+        <button
+            onClick={handleClickAbo} 
+            className={`btn btn-choice btnChoice`}
+        >
+            About
         </button>
       </div>
     </div>

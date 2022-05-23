@@ -6,11 +6,12 @@ import ChoicePage from './components/ChoicePage/ChoicePage'
 import Profile from './components/Profile/Profile'
 import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
-
+import About from './components/About/About'
 
 const stages = [
-  {id: 1, name: "projects", choiced: true},
-  {id: 2, name: "skills", choiced: false}
+  {id: 1, name: "projects"},
+  {id: 2, name: "skills"},
+  {id: 3, name: "about"}
 ]
 
 function App() {
@@ -28,6 +29,10 @@ function App() {
     const button = e.target
   }
 
+  const handleChoiceAbout = () => {
+    setChoiceStage(stages[2].name)
+  }
+
   return (
     <div className="App">
       <Profile/>
@@ -35,6 +40,7 @@ function App() {
       <ChoicePage 
         handleClickPro={handleChoiceProjetc}
         handleClickSki={handleChoiceSkills}
+        handleClickAbo={handleChoiceAbout}
       />
       {choiceStage === "projects" && (
         <div>
@@ -50,6 +56,7 @@ function App() {
         </div>
       )}
       {choiceStage === "skills" && <Skills/>}
+      {choiceStage === "about" && <About />}
     </div>
   )
 }

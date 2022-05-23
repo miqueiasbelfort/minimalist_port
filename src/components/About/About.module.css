@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.about_me {
+    padding: 0 20px;
+}
+.first_p{
+    text-align: left;
+    padding: 10px 0;
+    max-width: 700px;
+}
+.second_p{
+    text-align: right;
+    max-width: 700px;
+}
+.line {
+    width: 100%;
+    background-color: #ccc;
+}
+hr {
+    margin-bottom: 10px;
+}
+.pt {
+    color: #008000;
+}
+.us {
+    color: #ff2828;
+}

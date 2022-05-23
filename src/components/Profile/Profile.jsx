@@ -19,8 +19,8 @@ const Profile = () => {
         <a href=""><FaLinkedin/></a>
       </div>
       <div className={styles.desc}>
-        <p>Hi, I’m <span className='bold'>Miqueias</span>, I’m <span className='bold'>web developer</span>.
-Welcome to my portfolio, here you will see some of my skills and projetcs.</p>
+        <p>Hi, I’m <span className='bold-blue'>Miqueias</span>, I am <span className='bold-purple'>web developer</span>.
+Welcome to my portfolio, here you will see some of my skills, my projects and about me.</p>
       </div>
     </div>
   )
