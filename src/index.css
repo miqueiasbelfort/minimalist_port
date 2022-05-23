@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+body, html {
+  font-size: 16px;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+.bold {
+  font-weight: bold;
+}
+
+.btn {
+  padding: 15px 25px;
+  background: #0073DE;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: all .5s;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.btn.btn-choice {
+  background-color: transparent;
+  color: #000;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #00417d;
+}
+.btn.btn-choice:hover,
+.btn.btn.btn-choice:focus {
+  background-color: #fff;
+}
+
+
+@media screen  and (max-width: 768px){
+  .btn {
+    padding: 15px 20px;
+  }
+}

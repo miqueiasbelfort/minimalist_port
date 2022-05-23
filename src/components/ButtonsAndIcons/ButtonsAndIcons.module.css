@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.buttonsAndIcons_container{
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.container_icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.container_icons svg {
+    font-size: 2em;
+    color: #000;
+    transition: all .3s;
+}
+.container_icons svg:hover,
+.container_icons svg:focus {
+    color: #909090;
+}

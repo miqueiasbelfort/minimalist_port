@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.button_container {
+    padding: 10px;
+    background-color: #909090;
+    border-radius: 10px;
+}
+.button_container button {
+    margin-right: 20px;
+}
+.pro {
+    background-color: #fff;
+}
+.ski {
+    background-color: #fff;
+}
