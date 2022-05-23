@@ -8,6 +8,12 @@ import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
 import About from './components/About/About'
 
+//Imagens
+import MiniBlog from "./public/miniblog.png"
+import SecretWord from "./public/secretword.png"
+import Quiz from "./public/quiz.png"
+
+
 const stages = [
   {id: 1, name: "projects"},
   {id: 2, name: "skills"},
@@ -46,17 +52,30 @@ function App() {
         <div>
           <h3 style={{textAlign: "center", marginTop: "10px"}}>My projects</h3>
           <div className='projects_container'>
-            <Projects title="Miqueias Belfort"/>
-            <Projects title="Miqueias Belfort"/>
-            <Projects title="Miqueias Belfort"/>
-            <Projects title="Miqueias Belfort"/>
-            <Projects title="Miqueias Belfort"/>
-            <Projects title="Miqueias Belfort"/>
+            <Projects 
+              title="Mini Blog"
+              image={MiniBlog}
+              link="https://miniblogmiqueias.netlify.app"
+            />
+            <Projects 
+              title="Secret Word"
+              image={SecretWord}
+              link="https://secretword.netlify.app"
+            />
+            <Projects 
+              title="Quiz with JS"
+              image={Quiz}
+              link="https://thequizmksb.netlify.app/"
+            />
           </div>
         </div>
       )}
       {choiceStage === "skills" && <Skills/>}
       {choiceStage === "about" && <About />}
+
+      <div>
+        <p className='footer'>This site was created with React JS</p>
+      </div>
     </div>
   )
 }

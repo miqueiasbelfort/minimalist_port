@@ -14,7 +14,7 @@ const ButtonsAndIcons = () => {
                 Download CV
             </a>
             <div className={styles.container_icons}>
-                <a href=""><FaWhatsapp /></a>
+                <a href="https://api.whatsapp.com/send?phone=5561992254791&text=Hello%20Miqueias%2C%20how%20are%20you%20today%3F"><FaWhatsapp /></a>
                 <a href=""><FaDiscord /></a>
             </div>
       </div>

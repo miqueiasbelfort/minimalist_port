@@ -14,9 +14,9 @@ const Profile = () => {
         <span>Web Developer</span>
       </div>
       <div className={styles.media_icons}>
-        <a href=""><FaInstagram/></a>
-        <a href=""><FaGithub/></a>
-        <a href=""><FaLinkedin/></a>
+        <a href="https://www.instagram.com/miqueiasbelfort/"><FaInstagram/></a>
+        <a href="https://github.com/miqueiasbelfort"><FaGithub/></a>
+        <a href="https://www.linkedin.com/in/miqueias-belfort/"><FaLinkedin/></a>
       </div>
       <div className={styles.desc}>
         <p>Hi, I’m <span className='bold-blue'>Miqueias</span>, I am <span className='bold-purple'>web developer</span>.
