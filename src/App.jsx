@@ -5,6 +5,8 @@ import ChoicePage from './components/ChoicePage/ChoicePage'
 
 import Profile from './components/Profile/Profile'
 import Projects from './components/Projects/Projects'
+import Skills from './components/Skills/Skills'
+
 
 const stages = [
   {id: 1, name: "projects", choiced: true},
@@ -47,7 +49,7 @@ function App() {
           </div>
         </div>
       )}
-      {choiceStage === "skills" && <p>Skills</p>}
+      {choiceStage === "skills" && <Skills/>}
     </div>
   )
 }
