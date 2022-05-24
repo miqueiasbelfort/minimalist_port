@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import ButtonsAndIcons from './components/ButtonsAndIcons/ButtonsAndicons'
+import ButtonsAndIcons from './components/ButtonsAndIcons/ButtonsAndIcons'
 import ChoicePage from './components/ChoicePage/ChoicePage'
 
 import Profile from './components/Profile/Profile'
