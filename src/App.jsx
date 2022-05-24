@@ -9,9 +9,9 @@ import Skills from './components/Skills/Skills'
 import About from './components/About/About'
 
 //Imagens
-import MiniBlog from "./public/miniblog.png"
-import SecretWord from "./public/secretword.png"
-import Quiz from "./public/quiz.png"
+import MiniBlog from "./public/imgs/miniblog.png"
+import SecretWord from "./public/imgs/secretword.png"
+import Quiz from "./public/imgs/quiz.png"
 
 
 const stages = [

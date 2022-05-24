@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Profile.module.css"
-import Photo from "../../public/me.jpg"
+import Photo from "../../public/imgs/me.jpg"
 import {FaGithub, FaInstagram, FaLinkedin} from "react-icons/fa"
 
 const Profile = () => {
