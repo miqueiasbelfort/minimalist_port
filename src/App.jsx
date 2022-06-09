@@ -12,6 +12,7 @@ import About from './components/About/About'
 import MiniBlog from "./miniblog.png"
 import SecretWord from "./secretword.png"
 import Quiz from "./quiz.png"
+import Nativa from "./nativa.png"
 
 
 const stages = [
@@ -51,22 +52,29 @@ function App() {
       {choiceStage === "projects" && (
         <div>
           <h3 style={{textAlign: "center", marginTop: "10px"}}>My projects</h3>
-          <div className='projects_container'>
-            <Projects 
-              title="Mini Blog"
-              image={MiniBlog}
-              link="https://miniblogmiqueias.netlify.app"
-            />
-            <Projects 
-              title="Secret Word"
-              image={SecretWord}
-              link="https://secretword.netlify.app"
-            />
-            <Projects 
-              title="Quiz with JS"
-              image={Quiz}
-              link="https://thequizmksb.netlify.app/"
-            />
+          <div className="max_project_container">
+            <div className='projects_container'>
+              <Projects 
+                title="Mini Blog"
+                image={MiniBlog}
+                link="https://miniblogmiqueias.netlify.app"
+              />
+              <Projects 
+                title="Secret Word"
+                image={SecretWord}
+                link="https://secretword.netlify.app"
+              />
+              <Projects 
+                title="Quiz with JS"
+                image={Quiz}
+                link="https://thequizmksb.netlify.app/"
+              />
+              <Projects 
+                title="Nativa BR"
+                image={Nativa}
+                link="https://nativabr.netlify.app/"
+              />
+            </div>
           </div>
         </div>
       )}
